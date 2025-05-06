@@ -1,0 +1,8 @@
+class Vec[Elem, Size < Integer]
+  def initialize: (Size size, Elem val) -> void
+  def self.new2: (Size size, Elem val) -> Vec[Elem, Size]
+                
+  def map: [U] () { (Elem arg0) -> U } -> Vec[U, Size]
+         
+  def size: -> Size
+end
