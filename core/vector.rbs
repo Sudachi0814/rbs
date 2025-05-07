@@ -1,4 +1,4 @@
-class Vec[Elem, Size < Integer]
+module Vec[Elem, Size < Integer]
   def initialize: (Size size, Elem val) -> void
   def self.new2: (Size size, Elem val) -> Vec[Elem, Size]
                 
